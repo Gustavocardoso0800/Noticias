@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap');
+
+html {
+    background-image: linear-gradient(to left, rgb(3, 3, 3) , rgb(45, 45, 49));
+}
+
+#lcolor {
+    color: rgb(197, 197, 201);
+}
+
+#tcolor {
+    color: rgb(252, 39, 39);
+}
+#apresentacao {
+    background-image: url('/image/background2.jpg');
+    filter: grayscale(.8);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 20em;
+    color: #fff;
+    
+}
+
+#boas-vindas {
+    margin: auto;
+    padding: 3em;
+    width: 50em;
+    font-size: 15pt;
+}
+
+#logo, #logo > a {
+    float: left;
+    text-decoration: #fff;
+    color: #fff;
+    margin-left: 1em;
+    padding: 0.1em;
+
+}
+
+nav {
+    text-align: right;
+    padding: 1em;
+    background-color: #000000;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6em;
+    margin-left: 1em;
+    
+
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+
+#conteudo {
+    background-image: linear-gradient(to left, rgb(3, 3, 3) , rgb(45, 45, 49));
+    margin: auto;
+    text-align: center;
+    
+}
+
+.blocos {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(65, 62, 62);
+    width: 20em;
+    margin: 50px;
+    border-radius: 0.3em;
+    padding: 2em;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.253);
+}
+
+.blocos > h3, p {
+    margin: 0.4em;
+}
+
+.blocos > h3 {
+    color: rgb(158, 153, 153);
+    font-weight: 800;
+}
+
+.blocos > p {
+    color: rgb(184, 181, 181);
+}
+
+footer {
+    position: fixed;
+    background-color: #000;
+    padding: 0.5em;
+    bottom: 0; 
+    width: 100%;
+    
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #boas-vindas {
+        margin: auto;
+        padding: 3em;
+        width: 25em;
+        font-size: 12pt;
+    }
+    #apresentacao {
+        filter: grayscale(.8);
+        height: 17em;
+    }
+
+    #logo, #logo > a {
+        text-align: center;
+        float: none;
+        margin: 0;
+        padding: 0.1em;
+        background-color: #000;
+        text-decoration: #fff;
+        color: #fff;
+    
+    }
+
+    #ultimo {
+        margin-bottom: 5em;
+    }
+
+    .blocos {
+        margin-top: 0px;
+    } 
+}
+  
+
