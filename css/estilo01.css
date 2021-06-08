@@ -19,7 +19,7 @@ html {
     color: rgb(252, 39, 39);
 }
 #apresentacao {
-    background-image: url('/image/background2.jpg');
+    background-image: url(/image/background2.jpg);
     filter: grayscale(.8);
     background-repeat: no-repeat;
     background-size: 100%;
